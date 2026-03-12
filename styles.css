@@ -1,1 +1,29 @@
+body{
+    background-color: rgba(90, 1, 255, 0.518);
+    font-family: sans-serif;
+}
+img{
+    width:300px;
+    float:left;
+    border: solid 3px rgba(0, 0, 0, 0.638);
+    margin-right: 12px;
+    margin-bottom: 12px;
+    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  
+    
+
+}
+h3{clear: both;}
+
+
+
+    
+
+
+
+
 
