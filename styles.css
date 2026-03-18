@@ -17,12 +17,15 @@ img {
     margin-right: 12px;
     margin-bottom: 12px;
 }
- 
+img:hover {
+    transform:rotate(180deg);
+}
 #pic1 {
     float: right;
     margin-left: 20px;
     margin-right: 0px;
 }
+
  
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,6 +107,32 @@ p {
     margin-bottom: 12px;
     line-height: 1.7;
 }
+
+.glow-blue {
+    color: #1a1a2e;
+    transition: all 0.3s ease;
+}
+
+.glow-blue:hover {
+    color: #005BBB;
+    text-shadow:
+        0 0 5px #005BBB,
+        0 0 10px #005BBB,
+        0 0 20px #005BBB;
+}
+
+.glow-yellow {
+    color: #1a1a2e;
+    transition: all 0.3s ease;
+}
+
+.glow-yellow:hover {
+    color: #FFD500;
+    text-shadow:
+        0 0 5px #FFD500,
+        0 0 10px #FFD500,
+        0 0 20px #FFD500;
+}
  
 @media (max-width: 1200px) {
     #container {
@@ -143,4 +172,3 @@ p {
         margin: 0 0 15px 0;
     }
 }
- 
